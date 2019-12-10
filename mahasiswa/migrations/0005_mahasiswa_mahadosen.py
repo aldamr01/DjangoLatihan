@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('contoh1', '0004_remove_mahadosen_alamat'),
+        ('mahasiswa', '0004_remove_mahadosen_alamat'),
     ]
 
     operations = [

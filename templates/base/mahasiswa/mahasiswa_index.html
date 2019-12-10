@@ -1,0 +1,12 @@
+<form method="post" enctype="multipart/form-data">
+{% csrf_token %}
+    <input type="file" name="docfile" id="docfile">
+    <br><br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<br><br><br>
+
+{% for display in data %}
+    {{ display }}
+{% endfor %}
