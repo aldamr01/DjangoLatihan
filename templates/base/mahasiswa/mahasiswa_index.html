@@ -7,6 +7,19 @@
 
 <br><br><br>
 
-{% for display in data %}
-    {{ display }}
-{% endfor %}
+<table border="1">
+    <thead>
+        <th>Baris1</th>
+        <th>Baris2</th>
+        <th>Baris3</th>
+    </thead>
+    <tbody>
+        {% for display in data %}
+            <tr>
+                <td>{{ display.s1 }}</td>
+                <td>{{ display.s2 }}</td>
+                <td>{{ display.s3 }}</td>
+            </tr>
+        {% endfor %}
+    <tbody>
+</table>
